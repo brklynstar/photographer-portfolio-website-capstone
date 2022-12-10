@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Love Aziz | Contact</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- BOOTSTRAP THEME -->
+  <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+  <!-- CUSTOM STYLE -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar  bg-light fixed-top">
+        <div class="container-fluid text-center">
+          <!-- Logo Image -->
+          <img src="images/LOVE AZIZ PHOTOGRAPHY (3.5 × 2 in) (1).png" width="200" alt="" class="d-inline-block align-middle mr-2">
+          <!-- <a class="navbar-brand" href="#">Love Aziz Photography</a> -->
+      
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Love Aziz Photography</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+        <div class="text-dark text-center" style="padding-right: 1rem; padding-left: 1rem;">
+        <h1>Contact</h1>
+        </div>
+        <div class="text-dark text-center" style="padding-right: 1rem; padding-left: 1rem;">
+            <h5>For more booking information, please fill out the form below</h5>
+        </div>
+        <form>
+        <div class="mb-3 text-dark" style="padding-top: 30px; padding-left: 400px; padding-right: 400px;">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 text-dark" style="padding-top: 10px; padding-left: 400px; padding-right: 400px;">
+            <label for="exampleInputPassword1" class="form-label">Phone</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 text-dark" style="padding-top: 10px; padding-left: 400px; padding-right: 400px;">
+            <label for="exampleInputPassword1" class="form-label">Email</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 text- dark" style="padding-top: 10px; padding-left: 400px; padding-right: 400px;">
+            <label for="exampleInputPassword1" class="form-label">Message</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="text-light text-center" style="padding-right: 1rem; padding-left: 1rem; padding-bottom:30px; padding-top:20px;">
+            <button type="button" id ="message" class="btn btn-lg btn-primary" data-toggle="popover"  data-content="We look forward to hearing from you">Submit</button>
+        </div>
+        </form>
+    
+    <footer>
+        <div class="d-flex flex-column align-items-center pt-4">
+          <div class="row  w-25">
+              <a href="index.html" class="col text-decoration-none text-center home-footer"><strong>Home</strong></a>
+              <a href="gallery.html" class="col text-decoration-none text-center home-footer"><strong>Gallery</strong></a>
+              <a href="contact.html" class="col text-decoration-none text-center home-footer"><strong>Contact</strong></a>
+          </div>
+          <p class=" pt-3 home-footer"><small>Copyright © 2022 Brooke Finister</small></p>
+      </div>
+      </footer>
+    <!-- SCRIPTS -->
+     <!-- Javascript -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+     $(function () {
+          $("#message").popover()
+        })
+     </script>
+    </body> 
+</html>
+

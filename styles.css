@@ -1,0 +1,29 @@
+.page-header{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+.page-header h4{
+    margin: 1.5rem;
+    justify-content: center;
+}
+
+.page-header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 1.5rem;
+}
+.page-header a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none; 
+    align-items: center;
+
+}
+
+/* .carousel-item{
+    float:none; 
+    transition: 0s !important;
+} */
